@@ -1,0 +1,18 @@
+{
+  "primary": "#00c3b2",
+  "secondary": "#929292",
+  "accent": "#82B1FF",
+  "error": "#FF5252",
+  "info": "#2196F3",
+  "success": "#4CAF50",
+  "warning": "#FFC107",
+
+  "textSlightGray": "#929292",
+  "textGray": "#666666",
+  "textDarkGray": "#777777",
+  "textLightGray": "#A2A2A2",
+
+  "nemBlue": "#66B1E6",
+  "nemOrange": "#F7A800"
+
+}

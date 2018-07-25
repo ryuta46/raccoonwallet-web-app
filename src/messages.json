@@ -1,0 +1,382 @@
+{
+  "ja": {
+    "common": {
+      "done": "完了",
+      "success": "SUCCESS",
+      "coming_soon": "カミングスーン",
+      "privacy_policy_caution": "アプリの利用を開始する前に、ご確認ください。",
+      "privacy_policy": "利用規約とプライバシーポリシー",
+      "security_lesson": "セキュリティレッスン",
+      "pin_settings": "PINコードの設定",
+      "pin_retry": "PIN Code が一致しません。もう一度",
+      "pin_registration_message": [
+        [
+          "アプリ本体を保護するためのPINコードを設定します。6桁のPINコードを入力してください。",
+          "確認のため二度入力します。",
+          "※数字の繰り返しや誕生日などを含むコードはセキュリティの観点からおすすめしません。"
+        ],
+        [
+          "このPINコードを忘れた場合、アプリの操作ができなくなります。忘れないようにしてください。ただしPINコードを忘れた場合でもウォレットのXEMが無くなるわけではありません。",
+          "アドレスごとの秘密鍵を紛失した場合のみ資産にアクセスできなくなります。"
+        ]
+      ],
+      "pin_registration_complete": [
+        ["アプリ本体を保護するための6桁のPINコードが設定されました。"]
+      ],
+      "mosaic_list": "モザイク一覧",
+      "destination": "送り先",
+      "fee": "手数料",
+      "amount": "金額",
+      "invalid_address": "無効なアドレスです",
+      "message": "メッセージ",
+      "message_input": "メッセージを入力",
+
+      "address": "アドレス",
+      "backup": "バックアップ",
+      "delete": "削除",
+
+      "public_key": "公開鍵",
+      "not_select": "未選択",
+      "not_get": "未取得",
+
+
+      "address_book": "アドレス帳",
+      "mosaic_gallery": "モザイクギャラリー",
+      "donation": "寄付",
+      "settings": "設定",
+
+      "engineer": "エンジニア",
+      "designer": "デザイナー",
+
+      "general": "一般",
+      "security": "セキュリティ"
+    },
+    "wallet": {
+      "select": "ウォレットを選択",
+      "not_select_message": "ウォレットが選択されていません",
+
+      "no_wallet_title": "ウォレットがないみたい。",
+      "no_wallet_message": [
+        "上のボタンからウォレットを作成するか",
+        "アカウントをリンクすると、ここに一覧で表示されるよ。"
+      ],
+      "name_title": "ようこそ、お客人",
+      "name_message_0": "ハロー。ウェルカム・トゥ・ラクーン。",
+      "name_message_1": "早速、君のウォレットを作っていこう。",
+      "name_message_2": "まず最初に、ウォレットにイケてる名前をつけてくれ。",
+      "name_input": "一番いいウォレットネームを",
+      "create_title": "準備完了",
+
+      "create_message_0": "すばらしい！ウォレット作成完了です。",
+      "create_message_1": "あっという間。驚いた？",
+      "create_message_2": "とりあえず君のアドレスはこんな感じ。",
+      "create_message_3": "…上に出てきたナンバーは何かって？",
+      "create_message_4": "ウォレットのメンテンスしたいときは押すが良い。",
+      "create_message_5": "この画面では動作しないからあとで試してみてくれ。",
+
+      "end_title": "お疲れ様！レッスンはどう？",
+      "end_message_0": "以上でウォレットの新規作成作業は完了です。",
+      "end_message_1": "このままウォレットのバックアップなどを行いたい人はレッスンに移動してね。",
+      "end_message_2": "とりあえず今のままで使い始めたい人は",
+      "end_message_3": "HOME からスキップもできるよ。",
+
+      "import_title": "秘密鍵のインポート",
+      "import_message": [
+        "開けゴマ！",
+        "1. NEMの秘密鍵を入力する。",
+        "もしくはQRコードで読み取りましょう。",
+        "2. あなたのNEMアカウントをラクーンにリンクします！"
+      ],
+
+      "invalid_key": "無効な秘密鍵です",
+      "login_name_title": "Walletの名前をインポート",
+      "login_name_message": [
+        "グレイト！",
+        "アカウントのリンクが正常に行われました。",
+        "ウォレットに名前をつけると便利です。"
+      ],
+
+      "login_end_title": "リンク完了",
+      "login_end_message": [
+        "いいセンスだ。",
+        "以上でリンク作業は完了しました。",
+        "ウォレットの変更や追加をしたい場合は、",
+        "ウォレットバーのボタンから管理画面に",
+        "アクセスしてみてくださいね。",
+        "もし時間があるなら、この後のセキュリティレッスンの受講をオススメします。PINコードの設定やウォレットのバックアップを行うぞ。"
+      ],
+
+      "settings_title": "ウォレットの設定",
+      "settings_general": "一般設定",
+      "settings_detail": "ウォレットの詳細",
+      "settings_address": "ウォレットのアドレス",
+      "settings_backup": "ウォレットのバックアップ",
+      "settings_rename": "ウォレットの名前を変更する",
+      "settings_delete": "ウォレットを削除",
+
+      "key_caution_title": "プライベートキー(秘密鍵)について",
+      "key_caution_message": [
+        "プライベートキー（秘密鍵）はあなたのアカウント情報において最も重要であり、機密事項として注意して取り扱わなければなりません。",
+        "",
+        "プライベートキーは、関連する資金と資産を制御し、あなたのアカウントを元に戻すために必要なものであり、この知識は誰もが身につける必要があります。",
+        "",
+        "このプライベートキーは、決してなくさないようにしてください。 また絶対に外部に漏れないように注意して扱ってください。"
+      ],
+      "key_backup_title": "スクリーンショットに撮るのは危険です。",
+      "key_backup_message": "紙に書き留める、またはパスワード管理アプリ・ソフトウェアを使って厳重に保管してください。",
+
+      "delete_caution_message": [
+        "ウォレットを削除します。",
+        "秘密鍵がないと復元できなくなります。",
+        "本当にウォレットを削除しますか？"
+      ],
+
+      "detail_title": "ウォレットの詳細",
+      "detail_structure": "ウォレット構成 (m-of-n)",
+      "detail_importance": "重要性スコア",
+
+      "detail_general": "一般情報",
+
+      "rename_title": "ウォレット名変更",
+      "rename_hint": "新しいウォレット名",
+
+      "go_home_caution1_title": "おっと！",
+      "go_home_caution1_message": [
+        "ほんとにHOMEに行くのかい？",
+        "セキュリティはちゃんとしといたほうがいいよ。"
+      ],
+      "go_home_caution2_title": "ほんとに？",
+      "go_home_caution2_message": [
+        "ほんとにほんとだね？止めはしないよ。",
+        "もしウォレットのバックアップやPINコードを設定したくなったら、ウォレットバーやメニューのアプリ設定からいつでも行えるよ。それにレッスンもアプリ設定のセキュリティの項目から受講できるからね。"
+      ]
+    },
+    "transaction": {
+      "list_title": "トランザクション一覧",
+      "detail_title": "トランザクション詳細",
+      "no_transaction_title": "おっと。まだ取引はないみたい。",
+      "no_transaction_message": [
+        "トランザクションが発生したら" ,
+        "ここに一覧で表示されるよ。"
+      ],
+      "message_is_encrypted": "メッセージは暗号化されています",
+      "failed_to_decrypt": "復号に失敗しました"
+    },
+    "lesson": {
+      "introduction_message_0": "やあ。セキュリティレッスンを受けに来たのかい？",
+      "introduction_message_1": "感心感心",
+      "introduction_message_2": "よーし、それじゃあ早速やっていこう。",
+
+      "introduction_message_3": "じゃあ、まず最初に君のことを教えてくれないかい？",
+      "introduction_message_4": "次の画面で自分に合うものを選択してくれ。",
+      "introduction_message_5": "特別にみんなに最適なレッスン用意したからさ。",
+
+      "level_title": "セレクトユアレベル！",
+      "level_beginner_title": "NEM初心者です！",
+      "level_beginner_setup": "秘密鍵のバックアップ+PINコード設定",
+      "level_beginner_message": "ようこそNEMの世界へ。",
+      "level_login_title": "秘密鍵からのログインです",
+      "level_login_setup": "PINコード設定",
+      "level_login_message": "ラクーンを選んでくれてありがとう〜",
+      "level_user_title": "ラクーンユーザーです",
+      "level_user_setup": "ウォレットのバックアップ",
+      "level_user_message": "毎度どうも。今日もいい天気ですね。",
+
+      "beginner_title": "ニュービーな君へ",
+      "beginner_message": [
+        "NEM初心者の君へ捧ぐメッセージ！",
+        "知っている人もいるかもしれないけど、秘密鍵というのは仮想通貨にとって、すごく大事なものなんだ。NEMの場合もそれは同じだよ。バックアップはしっかりね。",
+        "",
+        "それからアプリ本体のPINコード。",
+        "スマホをもし落としてしまったりしたとき、アプリにロックをかけておかないと、勝手に送金されてしまうかもしれないよ。",
+        "どっちも大事だ。これから対策していくよ。",
+        "準備はいいかい？",
+        "それじゃあ、やっていこう。"
+      ],
+      "beginner_backup_end_title": "次はPINの設定だ！",
+      "beginner_backup_end_message": [
+        "また会ったな。",
+        "ウォレットのバックアップはできたかい？",
+        "さあ次は、アプリのPINコード設定だ。",
+        "",
+        "グッドラック！"
+      ],
+
+
+      "beginner_end_title": "お疲れ様！",
+      "beginner_end_message": [
+        "すばらしい！！",
+        "これで君も立派なクリプトコイナーというわけだ。",
+        "感慨深いね。",
+        "",
+        "てなわけで、セキュリティレッスンは以上で終わり。",
+        "暇があったらメニューからヘルプも覗くと良いよ。",
+        "まあ後は使いながら覚えていってくれ。",
+        "月に叢雲花に風。",
+        "さよならだけが人生さ。",
+        "また会おうぜ。グッドラック。"
+      ],
+
+      "login_message": [
+        "NEMユーザーのあなた！",
+        "ラクーンウォレットを選んでくれて嬉しいよ。すでによく知っている君には、僕から説明することはあまりないかな。",
+        "ここの画面から、PINコードを設定できるから、サクッと設定しといてくれ。",
+        "",
+        "もし秘密鍵のバックアップを取り忘れてたなら、初心者のカードからレッスンを受けてね。"
+      ],
+
+      "login_end_title": "お疲れ様！",
+
+      "login_end_message": [
+        "レッスンお疲れ様。仮想通貨の活動をラクーンで行うことを選択した君を後悔させないように頑張るよ。",
+        "このウォレット自体の使い方は、メニューからアクセスできるヘルプから学習してほしい。",
+        "",
+        "ゆく河の流れは絶えずして、しかももとの水にあらず。",
+        "いづかたより来たりて、いづかたへか去る君との出会いに感謝するよ。",
+        "グッドラック。"
+      ],
+      "user_title": "秘密鍵のバックアップ",
+      "user_message": [
+        "あっ、なんだ君か。",
+        "そうそう、聞いてよ。最近、人にものを教えるのって大変だなって痛感してるんだ。なんでも３倍理解してないとダメだとか。僕の苦労も報われるといいのだけど。",
+        "そう思わない？",
+        "え？秘密鍵のバックアップ？次の画面だよ。",
+        "そうそう、それでさ～。"
+      ],
+
+      "cancel_pin_title": "　おっと！",
+      "cancel_pin_message": [
+        [
+          "もうPINは設定してあるみたいだね。",
+          "OKを押してレッスンを終えてもらっていいよ。",
+          "お疲れ様！"
+        ]
+      ]
+
+    },
+    "qrlab": {
+      "calculator_description": "指定金額を受け取る",
+      "list_description": "売り物リスト機能を使う",
+      "register_name": "QRレジスター",
+      "register_description": "対応コードをスキャンして、合計金額を請求するQRコードを生成する",
+
+      "amount_title": "金額の指定"
+    },
+    "send": {
+      "destination": "送信先",
+      "input_address": "送信先アドレスを入力",
+
+      "newbie_caution_title": "気をつけて。送り先はニュービーだ",
+      "newbie_caution_message": [
+        "君が送ろうとしているアドレスは、これまで一度もブロックチェーン上で活動していない新参者みたいだね。とはいえアドレスがちゃんとした形式なら、送金は可能だよ。",
+        "アドレスは正しいか、送り先は信頼できるか、よく確かめてから手続きしてね。"
+      ],
+
+      "mode_select_title": "送信モードを選んでね",
+      "mode_select_message": "メッセージを添付しますか？",
+      "standard_title": "STANDARD SEND",
+      "standard_hint": "メッセージは添付せずに送金します。",
+      "standard_message": "普通の送金でいいよ",
+
+
+      "message_title": "Message SEND",
+      "message_hint": "1024文字以内。取引所への認証番号にも使うよ。",
+      "message_message": "トランザクションにメッセージを添えます",
+
+      "confirmation_title": "送金の最終確認画面です",
+      "confirmation_ready": "準備はいいですか？",
+      "confirmation_pin": "PIN画面を表示します",
+      "confirmation_dialog_message": [
+        "この画面で指紋認証またはPINの認証が完了すると、送金が完了します。",
+        "表示された情報をよくご確認の上、操作してください。"
+      ],
+
+      "complete_title": "送金完了！",
+      "complete_message": [
+        "NEM/XEM",
+        "の送金が完了しました"
+      ],
+      "amount_with_xem": "XEMを一緒に送る",
+
+      "message_type_select_title": "メッセージタイプを選択",
+
+      "message_standard_title": "通常のメッセージ",
+      "message_standard_message": [
+        "普通のお手紙です。",
+        "お礼の言葉を添えたりするときは、こっちでいいと思うよ。",
+        "認証番号もこっち。"
+      ],
+      "message_encryption_title": "暗号化メッセージ",
+      "message_encryption_message": [
+        "軍事レベルの暗号化技術でプライバシーを確保しましょう。認証番号などに使う場合は、問題の原因になるからオススメしないよ！"
+      ],
+      "message_no_public_key_title": "送り先が暗号化メッセージに対応していません。",
+      "message_no_public_key_message": [
+        "暗号化メッセージを送るには、暗号化に必要な公開鍵と呼ばれるコードを送り先が所持している必要があります。",
+        "現在指定されている送り先は公開鍵を所持していないため、暗号化メッセージは送れません。"
+      ]
+    },
+    "about": {
+      "app_concept": [
+        "信頼性が高く",
+        "使いやすいUIで、",
+        "仮想通貨をもっと楽しく。",
+        "",
+        "ラクーンウォレットは、これら３つを目標に",
+        "作られた仮想通貨ウォレットです。"
+      ],
+      "official_site": "公式サイト | raccoonwallet.com",
+      "discord": "公式DISCORDサーバー | 紹介リンク",
+      "open_source": "オープンソースライセンス"
+    },
+
+    "gallery": {
+      "no_mosaic_title": "モザイクなど存在しない。",
+      "no_mosaic_message": [
+        "お見せできるモザイクは、これっぽっちもないよ。",
+        "涙がちょちょ切れるほどコレクションに励もう。"
+      ]
+    },
+
+    "donation": {
+      "title": "おや?寄付してくれるのかい!?",
+      "detail_title": "開発の励みになるよ〜",
+
+      "android_developer_detail": [
+        "God of Raccoon。創造主でエンジニア。",
+        "すべてはココからはじまった。彼らがいなかったらラクーンは存在していない。",
+        "RaccoonのAndroidエンジニアは二人。@YukiYamadaJPと@Riberd_Puzzle1だ",
+        "",
+        "・リードエンジニア / コア開発者",
+        "・ベースアプリ（NEM総合アプリ） 開発",
+        "・Android版アプリ開発"
+      ],
+      "rhime_detail": [
+        "Raccoonの名付け親。デザイナー。",
+        "このアプリふざけてんなぁと思ったら、この人のせい。",
+        "ラクーンにおけるデザインの大体は、この人が作った。",
+        "使いやすいアプリの構造を考えたりする情報アーキテクチャも兼任した。",
+        "",
+        "・総合コンテンツデザイナー",
+        "・Android / iOSアプリのIA/UI/UXデザイン",
+        "・ビジュアルデザイン/ブランディング（ロゴ・サイト）"
+      ],
+      "ryuta_detail": [
+        "Raccoonの命綱。iOSエンジニア。最強の後衛。",
+        "将棋で例えるなら飛車。",
+        "ラクーンを林檎の楽園へといざなう。",
+        "",
+        "・Android→iOS版アプリ移植・開発主任",
+        "・nem-kotlinの創造主。"
+      ]
+    },
+    "settings": {
+      "language_select": "言語選択",
+      "notification_settings": "通知設定",
+      "change_password": "パスワードの設定・変更",
+      "go_to_security_lesson": "セキュリティレッスンを受ける"
+    }
+  },
+  "en": {
+  }
+}

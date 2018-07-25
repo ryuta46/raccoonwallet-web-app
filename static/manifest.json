@@ -1,0 +1,21 @@
+{
+  "name": "Raccoon Wallet Web",
+  "short_name": "raccoon-pwa",
+  "icons": [
+    {
+      "src": "img/icons/ic_launcher_192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/top_icon.png",
+      "sizes": "440x440",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "../index.html",
+  "display": "standalone",
+  "background_color": "#00c3b2",
+  "theme_color": "#4DBA87",
+  "orientation": "portrait"
+}
