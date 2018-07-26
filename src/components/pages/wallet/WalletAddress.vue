@@ -9,7 +9,7 @@
 
         <v-container>
           <v-layout column align-center>
-            <qrcode-vue size="200" :value="getInvoiceData()" v-if="address.length > 0"></qrcode-vue>
+            <qrcode-vue size="200" :value="invoiceData" v-if="address.length > 0"></qrcode-vue>
             <p style="margin-top: 32px" class="app-primary-text">Your Address</p>
             <p style="text-align: center">{{address}}</p>
           </v-layout>
@@ -33,20 +33,20 @@
     props: {
       id: String
     },
-    computed: {
-      async address(): Promise<string> {
-        const wallet = await WalletsHelper.get(this.id);
-        if (wallet == null) {
-          return '';
-        } else {
-          return wallet.address;
-        }
+    data() {
+      return {
+        address: '',
+        invoiceData: ''
       }
     },
-    methods: {
-      async getInvoiceData(): Promise<string> {
-        return new InvoiceData(await this.address).toJsonString();
-      },
+    async mounted() {
+      const activeWallet = await WalletsHelper.getActive();
+      if (activeWallet == null) {
+        this.address = '';
+      } else {
+        this.address = activeWallet.address;
+      }
+      this.invoiceData = new InvoiceData(this.address).toJsonString();
     }
   });
 </script>
