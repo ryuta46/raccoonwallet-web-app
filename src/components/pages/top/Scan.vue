@@ -60,6 +60,12 @@
           const accountHttp = getAccountHttp();
           let address = new Address(invoiceData.address);
 
+          this.$store.commit(MUTATION_TYPES.SET_RECEIVER_ADDRESS, invoiceData.address);
+          this.$store.commit(MUTATION_TYPES.CLEAR_SEND_MOSAIC);
+          this.$store.commit(MUTATION_TYPES.ADD_SEND_MOSAIC, new XEM(getDivided(invoiceData.amount, 6).toNumber()));
+          this.$store.commit(MUTATION_TYPES.SET_MESSAGE_ENCRYPTION, false);
+          this.$store.commit(MUTATION_TYPES.SET_SEND_MESSAGE, invoiceData.message);
+
           accountHttp.getFromAddress(address).subscribe(
             accountInfoWithMetaData => {
               if (accountInfoWithMetaData.publicAccount.hasPublicKey()) {
@@ -68,13 +74,12 @@
               } else {
                 this.$store.commit(MUTATION_TYPES.SET_RECEIVER_PUBLIC_KEY, '');
               }
-              this.$store.commit(MUTATION_TYPES.SET_RECEIVER_ADDRESS, invoiceData.address);
-              this.$store.commit(MUTATION_TYPES.CLEAR_SEND_MOSAIC);
-              this.$store.commit(MUTATION_TYPES.ADD_SEND_MOSAIC, new XEM(getDivided(invoiceData.amount, 6).toNumber()));
-              this.$store.commit(MUTATION_TYPES.SET_MESSAGE_ENCRYPTION, false);
-              this.$store.commit(MUTATION_TYPES.SET_SEND_MESSAGE, invoiceData.message);
               this.$router.push('/send/confirmation')
             },
+            error => {
+              this.$store.commit(MUTATION_TYPES.SET_RECEIVER_PUBLIC_KEY, '');
+              this.$router.push('/send/confirmation')
+            }
           );
         }
       }
