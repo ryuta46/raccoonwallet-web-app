@@ -68,13 +68,11 @@
           </v-tab-item>
 
         </v-tabs-items>
-
       </v-layout>
-
-      <div class="app-bottom-fix" :style="'max-width: 480px;' + (type === 'amount' ? '' : 'visibility: hidden')">
-        <calculator to="/send/mode?transition=fade-left"></calculator>
-      </div>
     </v-content>
+    <div class="app-bottom-fix" :style="'max-width: 480px;' + (type === 'amount' ? '' : 'visibility: hidden')">
+      <calculator to="/send/mode?transition=fade-left"></calculator>
+    </div>
   </div>
 </template>
 

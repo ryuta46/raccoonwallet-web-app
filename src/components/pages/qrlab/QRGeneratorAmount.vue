@@ -34,10 +34,10 @@
 
         </v-container>
       </v-layout>
-      <div class="app-bottom-fix" style="max-width: 480px">
-        <calculator :to="'/qrlab/invoice?amount=' + getXemAmount() + '&rate=' + rate"></calculator>
-      </div>
     </v-content>
+    <div class="app-bottom-fix" style="max-width: 480px">
+      <calculator :to="'/qrlab/invoice?amount=' + getXemAmount() + '&rate=' + rate"></calculator>
+    </div>
   </div>
 </template>
 
