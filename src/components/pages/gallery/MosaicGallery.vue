@@ -74,7 +74,7 @@
         this.imageUrls = Object.assign({}, imageUrlsDefault);
         getXemBookMosaicList().then((json) => {
           for(let imageInfo of json) {
-            this.imageUrls[imageInfo.namespace + '.' + imageInfo.name] = imageInfo.url;
+            this.imageUrls[imageInfo.namespace + ':' + imageInfo.name] = imageInfo.url;
           }
           this.loadingXemBookList = false;
         });
