@@ -74,7 +74,12 @@
               } else {
                 this.$store.commit(MUTATION_TYPES.SET_RECEIVER_PUBLIC_KEY, '');
               }
-              this.$router.push('/send/confirmation')
+              if (invoiceData.type === 1) {
+                // type 1 is address only jump to amount setting
+                this.$router.push('/send/amount')
+              } else {
+                this.$router.push('/send/confirmation')
+              }
             },
             error => {
               this.$store.commit(MUTATION_TYPES.SET_RECEIVER_PUBLIC_KEY, '');
